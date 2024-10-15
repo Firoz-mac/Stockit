@@ -1,0 +1,32 @@
+[
+    {
+      "stockname": "Apple",
+      "stockprice": "$100.00",
+      "returnvalue": "+0.85%",
+      "imageSrc": "companyLogo/apple.png"
+    },
+    {
+        "stockname": "Facebook",
+        "stockprice": "$500.00",
+        "returnvalue": "+0.60%",
+        "imageSrc": "companyLogo/facebook.png"
+    },
+    {
+        "stockname": "Google",
+        "stockprice": "$800.00",
+        "returnvalue": "+0.90%",
+        "imageSrc": "companyLogo/google.png"
+    },
+    {
+        "stockname": "Microsoft",
+        "stockprice": "$700.00",
+        "returnvalue": "+0.58%",
+        "imageSrc": "companyLogo/microsoft.png"
+    },
+    {
+        "stockname": "Spotify",
+        "stockprice": "$400.00",
+        "returnvalue": "+0.47%",
+        "imageSrc": "companyLogo/spotify.png"
+    }
+]

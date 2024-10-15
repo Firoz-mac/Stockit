@@ -1,0 +1,181 @@
+.container{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.topSelling{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.bottomSelling{
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.topSellingCard{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(202, 202, 202, 0.526);
+    padding: 15px;
+    cursor: pointer;
+}
+.stockNameSection{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.stockRateSection{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.logoSection{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.cardLogo{
+    width: 100%;
+}
+.stockName{
+    font-size: 20px;
+}
+.selectedSection{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    background-color: white;
+}
+.watchlistSection{
+    width: 28.5%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+}
+.selectedCardTop{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+.selectedCardDividingLine{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(202, 202, 202, 0.526);
+}
+.selectedCardGraphSection{
+    width: 100%;
+    height: 70%;
+    background-color: white;
+}
+.graph{
+    width: 100%;
+    height: 100%;
+
+}
+.selectedCardTopLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+.selectedCardTopRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.selectedCardTopLeftProfile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+}
+.selectedCardTopLeftProfileName{
+    width: 80px;
+    height: 40px;
+}
+.selectedCardTopLeftProfiletext{
+    font-size: 12px;
+}
+.selectedCardTopLeftProfiletextRate{
+    font-size: 20px;
+}
+.watlistHead{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 15px 0px;
+}
+.watchlistCard{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.wCardLogo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.wLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+}
+.wRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 830px){
+    .topSelling{
+        flex-wrap: wrap;
+        row-gap: 6px;
+    }
+    .topSellingCard{
+        width: 100%;
+    }
+    .bottomSelling{
+        flex-direction: column;
+        row-gap: 8px;
+        height: auto;
+    }
+    .selectedSection{
+        width: 100%;
+    }
+    .watchlistSection{
+        width: 100%;
+        height: auto;
+    }
+
+}
